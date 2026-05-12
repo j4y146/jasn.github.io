@@ -2,13 +2,15 @@
 <html>
   <style>
     .folder {width:300px; margin:auto; display: flex; justify-content: center; align-items: center; height: 80vh;}
-    .title {background-color: #008080; position: fixed; align-items: center; justify-content: center;}
+    .title {background-color: #008080; display: flex; align-items: center; justify-content: center; position: fixed; top: 20px;   /* Distance from top of the window */ right: 35%; /* Distance from right side of the window */}
 </style>
   <header>
     <link rel="stylesheet" href="main.css">
   </header>
   <body>
-    <h1 class="title" style="color: #FFFFFF; text-align: center;">Mail-in Repair</h1>
+    <div class="title">
+        <h1 style="color: #FFFFFF; text-align: center;">Mail-in Repair</h1>
+    </div>
     <div class="folder">
        <a href="default.asp"><img src="folder.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
     </div>
