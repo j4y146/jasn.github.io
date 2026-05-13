@@ -17,11 +17,20 @@ body {
     background-color: #008080;
 }
 
-.image-link {
-  background-image: "folder_closed.png";
-  background-size: 96px,96px;
+.image-container {
+  position: relative;
+  padding: 0;
+  border: none;
+  background: none;
 }
 
-.image-link:hover {
-  background-image: "open_folder.png";
+.hover-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.image-container:hover .hover-img {
+  opacity: 1;
 }
