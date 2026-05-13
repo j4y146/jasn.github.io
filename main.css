@@ -14,3 +14,18 @@ header {
 body {
     background-color: #008080;
 }
+
+.image-button {
+  width: 200px;
+  height: 60px;
+  background-image: url('folder_closed.png');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  /* Smooth transition effect */
+  transition: background-image 0.3s ease-in-out; 
+}
+
+.image-button:hover {
+  background-image: url('folder_open.png');
+}
