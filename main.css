@@ -16,7 +16,7 @@ body {
 }
 
 button {
-    color: rgba(0,255,255,1);
+    background-color: rgba(0,255,255,1);
 }
 
 .image-button {
