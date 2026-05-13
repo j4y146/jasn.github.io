@@ -16,8 +16,8 @@ body {
 }
 
 .image-button {
-  width: 200px;
-  height: 60px;
+  width: 96px;
+  height: 96px;
   background-image: url('folder_closed.png');
   background-size: cover;
   border: none;
