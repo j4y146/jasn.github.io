@@ -17,24 +17,13 @@ body {
     background-color: #008080;
 }
 
-.image-container {
-  border: none;
-  background: none;
-  height: 96px;
-  width: 96px;
+.folderlink {
+    width: 96px;
+    height: 96px;
+    display: block;
+    background:transparent src="folder_closed.png" center top no-repeat;
 }
 
-.hover-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-}
-
-.image-container:hover .base-img {
-  visibility: hidden;
-}
-
-.image-container:hover .hover-img {
-  visibility: visible;
+.folderlink:hover {
+   background-image: src="folder_open.png";
 }
