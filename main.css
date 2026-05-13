@@ -18,8 +18,8 @@ body {
 .image-button {
     width: 96px;
     height: 96px;
+    color: rgba(255, 255, 255, 0.0);
     background-image: url('folder_closed.png');
-    background-color: transparent;
     border: none;
     cursor: pointer;
     /* Smooth transition effect */
@@ -28,5 +28,4 @@ body {
 
 .image-button:hover {
     background-image: url('folder_open.png');
-    background-color: transparent;
 }
