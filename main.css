@@ -3,8 +3,6 @@
     margin: 10px;
     padding: 0;
     box-sizing: border-box;
-    transform: scale(0.8); /* Shrinks the site to 80% */
-    transform-origin: top center; /* Keeps the page centered */
 }
 
 header {
@@ -18,12 +16,9 @@ body {
 }
 
 .folderlink {
-    width: 96px;
-    height: 96px;
-    display: block;
-    background:transparent url('/folder_closed.png') center top no-repeat;
+    background:transparent url("https://github.com/j4y146/jasn.github.io/blob/main/folder_closed.png") center top no-repeat;
 }
 
 .folderlink:hover {
-   background-image: url('/folder_open.png');
+   background-image: url("https://github.com/j4y146/jasn.github.io/blob/main/folder_open.png");
 }
