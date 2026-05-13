@@ -16,3 +16,15 @@ header {
 body {
     background-color: #008080;
 }
+
+.image-link {
+  display: inline-block;
+  width: 96px;
+  height: 96px;
+  background-image: "folder_closed.png";
+  background-size: cover;
+}
+
+.image-link:hover {
+  background-image: "open_folder.png";
+}
