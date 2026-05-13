@@ -18,23 +18,23 @@ body {
 }
 
 .image-container {
-  position: relative;
-  padding: 0;
   border: none;
   background: none;
+  height: 96px;
+  width: 96px;
 }
 
 .hover-img {
   position: absolute;
   top: 0;
   left: 0;
-  display: none;
+  visibility: hidden;
 }
 
 .image-container:hover .base-img {
-  display: none;
+  visibility: hidden;
 }
 
 .image-container:hover .hover-img {
-  display: block;
+  visibility: visible;
 }
