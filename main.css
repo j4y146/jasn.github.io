@@ -21,9 +21,9 @@ body {
     width: 96px;
     height: 96px;
     display: block;
-    background:transparent "folder_closed.png" center top no-repeat;
+    background:transparent url("folder_closed.png") center top no-repeat;
 }
 
 .folderlink:hover {
-   background-image: "folder_open.png";
+   background-image: url("folder_open.png");
 }
