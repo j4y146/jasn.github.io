@@ -18,11 +18,8 @@ body {
 }
 
 .image-link {
-  display: inline-block;
-  width: 96px;
-  height: 96px;
   background-image: "folder_closed.png";
-  background-size: cover;
+  background-size: 96px,96px;
 }
 
 .image-link:hover {
