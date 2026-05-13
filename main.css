@@ -28,13 +28,13 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0;
+  display: none;
 }
 
 .image-container:hover .base-img {
-  opacity: 0;
+  display: none;
 }
 
 .image-container:hover .hover-img {
-  opacity: 1;
+  display: block;
 }
