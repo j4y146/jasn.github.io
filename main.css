@@ -16,15 +16,17 @@ body {
 }
 
 .image-button {
-  width: 96px;
-  height: 96px;
-  background-image: url('folder_closed.png');
-  border: none;
-  cursor: pointer;
-  /* Smooth transition effect */
-  transition: background-image 0.1s ease-in-out; 
+    width: 96px;
+    height: 96px;
+    background-image: url('folder_closed.png');
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    /* Smooth transition effect */
+    transition: background-image 0.1s ease-in-out; 
 }
 
 .image-button:hover {
-  background-image: url('folder_open.png');
+    background-image: url('folder_open.png');
+    background-color: transparent;
 }
