@@ -31,6 +31,10 @@ body {
   opacity: 0;
 }
 
+.image-container:hover .base-img {
+  opacity: 0;
+}
+
 .image-container:hover .hover-img {
   opacity: 1;
 }
