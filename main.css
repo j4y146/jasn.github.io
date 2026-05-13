@@ -14,11 +14,3 @@ header {
 body {
     background-color: #008080;
 }
-
-.folderlink {
-    background:transparent url("https://github.com/j4y146/jasn.github.io/blob/main/folder_closed.png") center top no-repeat;
-}
-
-.folderlink:hover {
-   background-image: url("https://github.com/j4y146/jasn.github.io/blob/main/folder_open.png");
-}
