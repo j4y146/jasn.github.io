@@ -5,9 +5,34 @@
     box-sizing: border-box;
 }
 
-.folder {width:300px; margin:auto; display: flex; justify-content: center; align-items: center; height: 90vh;}
-    .title {background-color: #008080; display: flex; align-items: center; justify-content: center; position: fixed; left: 0%; right:0%; height: 8vh;}
-    .footer {background-color: #008080; display: flex; align-items: center; justify-content: center; left: 0%; right:0%; height: 8vh; color: white;}
+.folder {
+    width:300px; 
+    margin:auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 65vh;
+}
+.title {
+    background-color: #008080; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: fixed; 
+    left: 0%; 
+    right:0%; 
+    height: 8vh;
+}
+.footer {
+    background-color: #008080; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    left: 0%; 
+    right:0%; 
+    height: 8vh; 
+    color: white;
+}
 
 @font-face {
   font-family: w98; /* set name */
