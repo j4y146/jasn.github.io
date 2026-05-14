@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <html>
   <style>
-    .title {background-color: #008080; display: flex; align-items: center; justify-content: center; position: fixed; left: 0%; right:0%}
+    .title {background-color: #008080; display: flex; align-items: center; justify-content: center; left: 0%; right:0%;}
+    .footer {background-color: #008080; display: flex; align-items: center; justify-content: center; left: 0%; right:0%; height: 8vh; color: white; position: fixed;}
+    /* Create three equal columns that sits next to each other */
+.column {
+  display: flex;
+  padding: 10px;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+    /* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
 </style>
   <header>
     <link rel="icon" type="image/x-icon" href="/w95_4.ico">
@@ -11,12 +31,43 @@
     <div class="title">
         <h1 style="color: #FFFFFF; text-align: center;">Mail-in Repair</h1>
     </div>
-    <div>
-      <a href="index.html">Back</a>
-    </div>
-    <footer>
-        <p>Author: Jason Reiner<br>
-        <a href="mailto:jasn.r146@gmail.com">jasn.r146@gmail.com</a></p>
+    
+    
+    <div class="row">
+  		<div class="column" style="width: 20%;">
+        <a href="index.html">← Return</a>
+      </div>
+  		<div class="column" style="width: 80%;">
+        <div>
+          <div>
+            <h1> Vintage Electronics Repair</h1>
+          </div>
+          <div class="column" style="width: 60vw; height: 40vh;">
+            <ul style="list-style-type: none;">
+              <h3>
+              <li>Email me issues → 📧</li>
+                <br>
+              <li>Mail your system to me → 📦</li>
+                <br>
+              <li>I fix it → 🪛</li>
+                <br>
+              <li>Happy! → 😁</li>
+              </h3>
+            </ul>
+          </div>
+          <div>
+            <h3> Email → <a href="mailto:jasn.r146@gmail.com">jasn.r146@gmail.com</a></h3>
+          </div>
+        </div>
+      </div>
+		</div>
+    
+    <footer class="footer">
+      <p>Copyright © 2026 - All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+      <p>Copyright © 2026 - All rights reserved.</p>
     </footer>
   </body>
 </html>
