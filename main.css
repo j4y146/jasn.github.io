@@ -3,12 +3,11 @@
     margin: 10px;
     padding: 0;
     box-sizing: border-box;
-    background-color: #008080;
 }
 
 @font-face {
   font-family: w98; /* set name */
-  src: url("MSW98UI-Regular.ttf"; /* url of the font */
+  src: "MSW98UI-Regular.ttf"; /* url of the font */
 }
 
 p {
