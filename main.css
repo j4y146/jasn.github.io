@@ -5,27 +5,23 @@
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: w98; /* set name */
+  src: url("MSW98UI-Regular.ttf"; /* url of the font */
+}
+
+p {
+  font-family: w98; /* use font */
+}
+
 header {
   position: sticky;
   top: 0;
   z-index: 1000; /* Keeps header above other content */
+  font-family: w98;
 }
 
 body {
     background-color: #008080;
-}
-
-.image-button {
-    width: 96px;
-    height: 96px;
-    background-color: #008080;
-    background-image: url('folder_closed.png');
-    border: none;
-    cursor: pointer;
-    /* Smooth transition effect */
-    transition: background-image 0.1s ease-in-out; 
-}
-
-.image-button:hover {
-    background-image: url('folder_open.png');
+    font-family: w98;
 }
