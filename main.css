@@ -22,8 +22,9 @@
     left: 0%; 
     right:0%; 
     height: 100px;
+    font-family: "Jersey 10";
 }
-.footer {background-color: #008080; display: flex; align-items: center; justify-content: center; left: 0%; right:0%; color: white; height: 100px;}
+.footer {background-color: #008080; display: flex; align-items: center; justify-content: center; left: 0%; right:0%; color: white; height: 100px; font-family: "Jersey 10";}
 .mainblock {display: flex; background-color: #008080; height: 85vh; justify-content: center; align-items: center;}
 .window {display: flex; background: url("https://github.com/j4y146/jasn.github.io/blob/main/window(1).png?raw=true"); background-repeat: no-repeat; background-color: #fdffff; width: 700px; height:468px; justify-content: center; align-items: center;}
 .inside {display: flex; margin-top: 10%; margin-right: 8%; margin-left: 5%; margin-bottom: 5%; height: 325px; width: 600px; flex-direction: column; justify-content: center; align-items: center;}
@@ -39,8 +40,26 @@ p {
 }
 
 li {
-  font-size: 18px;
+  font-size: 20px;
+  font-family: "Jersey 10";
 }
+    
+h2 {
+  font-size: 30px;
+  font-family: "Jersey 10";
+}
+    
+h4 {
+  font-size: 20px;
+  font-family: "Jersey 10";
+}
+    
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 header {
   position: sticky;
