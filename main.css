@@ -14,7 +14,7 @@
 .exit {
   display: flex;
   border: solid;
-  height: 10px;
+  height: 20px;
   width: 20px;
   position: absolute;
   top: 0;
