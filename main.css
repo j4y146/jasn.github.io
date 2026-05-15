@@ -13,8 +13,8 @@
     align-items: center; 
     height: 85vh;
 }
-.title {background-color: #008080; display: flex; align-items: center; justify-content: center; position: fixed; left: 0%; right:0%; height: 8vh;}
-.footer {background-color: #008080; display: flex; align-items: center; justify-content: center; left: 0%; right:0%; color: white;}
+.title {background-color: #008080; display: flex; align-items: center; justify-content: center; position: fixed; left: 0%; right:0%; height: 100px;}
+.footer {background-color: #008080; display: flex; align-items: center; justify-content: center; left: 0%; right:0%; color: white; height: 100px;}
 
 @font-face {
   font-family: w98; /* set name */
