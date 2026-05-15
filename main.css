@@ -11,6 +11,18 @@
   font-style: normal;
 }
 
+.exit {
+  display: block;
+  border: solid;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  margin-top: 10%;
+  margin-right: 5%;
+  margin-left: 76%;
+  margin-bottom: 56%;
+}
+
 .folder {
     width:300px;  
     margin:auto;  
