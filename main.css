@@ -14,15 +14,14 @@
 .exit {
   display: flex;
   border: solid;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 36px;
   position: absolute;
   top: 0;
   right: 0;
-  margin-right: 10px;
-  margin-top: 6px;
   align-items: center;
   justify-content: center;
+  padding-bottom: 8px;
 }
 
 .folder {
