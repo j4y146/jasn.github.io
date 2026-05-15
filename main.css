@@ -36,7 +36,7 @@
 .inside {display: flex; margin-top: 10%; margin-right: 8%; margin-left: 5%; margin-bottom: 5%; height: 325px; width: 600px; flex-direction: column; justify-content: center; align-items: center;}
 
 p {
-  font-family: w98; /* use font */
+  font-family: "Jersey 10";
   background-color: #008080;
 }
 
