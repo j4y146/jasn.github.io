@@ -1,58 +1,72 @@
 <!DOCTYPE html>
 <html>
   <style>
-    .title {background-color: #008080; display: flex; align-items: center; justify-content: center; position: fixed; left: 0%; right:0%; height: 8vh;}
+    .title {background-color: #008080; display: flex; align-items: center; justify-content: center; left: 0%; right:0%; height: 100px;}
     .footer {background-color: #008080; display: flex; align-items: center; justify-content: center; left: 0%; right:0%; color: white;}
-.column {
+.mainblock {
   display: flex;
-  height:85vh;
+  background-color: #008080;
+  height: 70vh;
+  border: solid;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
     
 .window {
+  display: flex;
   background: url("https://github.com/j4y146/jasn.github.io/blob/main/window(1).png?raw=true");
   background-repeat: no-repeat;
   background-color: #fdffff;
   width: 700px;
   height:468px;
+  justify-content: center;
+  align-items: center;
+}
+    
+.inside {
+  display: flex;
+  border: solid;
+  margin-top: 10%;
+  margin-right: 8%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  height: 325px;
+  width: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
     
 </style>
   <header>
+    <link rel="icon" type="image/x-icon" href="/w95_4.ico">
     <link rel="stylesheet" href="main.css">
   </header>
   <body>
     <div class="title">
         <h1 style="color: #FFFFFF; text-align: center;">Mail-in Repair</h1>
     </div>
-  		<div class="column" style="background-color: #008080; width: 100%; align-items: center;
-  justify-content: center;">
-        <div class="window">
-         <div style="width: 650px; height: 400px; border: 3px solid transparent; margin-left: 20px; margin-top: 40px;">
-          <div style="background-color:#fdffff; margin-top: 90px; margin-left: 50px; margin-right: 55px;">
-            <h2> Vintage Electronics Repair</h2>
-          </div>
-          <div style=" width: 60vw; height: 	14vh;">
-            <ul style="list-style-type: none;">
-              <p>
-              <li>Email me issues → 📧</li>
-                <br>
-              <li>Mail your system to me → 📦</li>
-                <br>
-              <li>I fix it → 🪛</li>
-                <br>
-              <li>Happy! → 😁</li>
-              </p>
-            </ul>
-          </div>
-          <div style="background-color:#fdffff; margin-left: 50px; margin-right: 55px;">
-            <h4> Email → <a href="mailto:jasn.r146@gmail.com">jasn.r146@gmail.com</a></h4>
-          </div>
-          </div>
+    
+    <div class="mainblock">
+      <div class="window">
+        <div class="inside">
+           <h2>Vintage Electronics Repair</h2>
+           <ul style="list-style-type: none;">
+             <p>
+             <li>Email me issues → 📧</li>
+               <br>
+             <li>Mail your system to me → 📦</li>
+               <br>
+             <li>I fix it → 🪛</li>
+               <br>
+             <li>Happy! → 😁</li>
+             </p>
+           </ul>
+          <h4> Email → <a href="mailto:jasn.r146@gmail.com">jasn.r146@gmail.com</a></h4>
         </div>
       </div>
+    </div>
+    
     <footer class="footer">
       <p>Copyright © 2026 - All rights reserved.</p>
     </footer>
