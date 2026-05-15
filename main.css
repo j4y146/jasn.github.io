@@ -38,6 +38,10 @@ p {
   background-color: #008080;
 }
 
+li {
+  font-size: 18px;
+}
+
 header {
   position: sticky;
   top: 0;
