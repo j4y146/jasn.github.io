@@ -44,7 +44,7 @@
 }
 .footer {
     background-color: #008080; 
-    display: flex; 
+    display: flex;
     align-items: center; 
     justify-content: center; 
     left: 0%; 
@@ -52,6 +52,9 @@
     color: white; 
     height: 100px; 
     font-family: "Jersey 10";
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .mainblock {
